@@ -3767,16 +3767,19 @@ ul.flex-button {
   list-style-type: none;
   -ms-flex-pack: center;
       justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   padding: 0; }
   ul.flex-button li {
-    margin: 0 1rem; }
+    margin: 0 1rem 10px; }
     ul.flex-button li img {
       min-width: 135px;
       min-height: 40px; }
     ul.flex-button li .web-button {
       color: #fefefe;
       text-align: center;
+      width: 135px;
       height: 40px;
       background-color: #E60012;
       display: inline-block;
